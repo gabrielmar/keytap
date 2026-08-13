@@ -141,6 +141,14 @@ decl! {
     VK_DECIMAL   = 0x6E => NumpadDecimal;
     VK_DIVIDE    = 0x6F => NumpadDivide;
 
+    VK_VOLUME_MUTE      = 0xAD => VolumeMute;
+    VK_VOLUME_DOWN      = 0xAE => VolumeDown;
+    VK_VOLUME_UP        = 0xAF => VolumeUp;
+    VK_MEDIA_NEXT_TRACK = 0xB0 => MediaNextTrack;
+    VK_MEDIA_PREV_TRACK = 0xB1 => MediaPrevTrack;
+    VK_MEDIA_STOP       = 0xB2 => MediaStop;
+    VK_MEDIA_PLAY_PAUSE = 0xB3 => MediaPlayPause;
+
     // Punctuation (OEM codes — US layout)
     VK_OEM_1      = 0xBA => Semicolon;
     VK_OEM_PLUS   = 0xBB => Equal;

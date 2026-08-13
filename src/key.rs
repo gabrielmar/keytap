@@ -148,6 +148,15 @@ pub enum Key {
     Pause,
     Menu,
 
+    // Media
+    VolumeMute,
+    VolumeDown,
+    VolumeUp,
+    MediaNextTrack,
+    MediaPrevTrack,
+    MediaStop,
+    MediaPlayPause,
+
     /// ISO-layout key between Left Shift and Z. Absent on ANSI (US)
     /// keyboards but present on most European / Japanese layouts.
     IntlBackslash,

@@ -85,6 +85,10 @@ decl! {
     110 => Insert,
     111 => Delete,
 
+    113 => VolumeMute,
+    114 => VolumeDown,
+    115 => VolumeUp,
+
     119 => Pause,
 
     125 => MetaLeft,
@@ -93,6 +97,11 @@ decl! {
 
     // ISO layout: the extra key between LShift and Z (KEY_102ND).
     86 => IntlBackslash,
+
+    163 => MediaNextTrack,
+    164 => MediaPlayPause,
+    165 => MediaPrevTrack,
+    166 => MediaStop,
 
     // Extended F keys
     183 => F13, 184 => F14, 185 => F15, 186 => F16,
